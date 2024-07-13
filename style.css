@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grand{
+width: 100%;
+height: 100%;
+
+position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 50vh;
+    background-color: turquoise;
+    background-image: url('assests/images/Slice 1.png');
+    background-size: cover;
+}
+.logo{
+    width: 12%;
+    height: 22vh;
+    background-size: cover;
+    background-image: url('assests/images/LOGOO.png');
+    margin: 40px;
+
+}
+.nav_image{
+    
+    width: 100%;
+
+}
+.nav_logo{
+    height: 150px;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    border-radius: 80px;
+}
+
+.nav_item1
+{
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    display: flex;
+    font-size: 35px;
+    color: #fff;
+ 
+}
+.nav_item2
+{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    display: flex;
+    font-size: 35px;
+    color: #fff;
+ 
+}
+.nav_item3
+{
+    position: absolute;
+    top: 100px;
+    left: 880px;
+    display: flex;
+    font-size: 35px;
+    color: #fff;
+ 
+}
+.nav_item4
+{
+    position: absolute;
+    border: 2px solid #fff;
+    color: #fff;
+    top: 90px;
+    left: 1250px;
+    display: flex;
+    font-size: 25px;
+    background-color: rgb(254, 167, 36);
+    padding: 16px 26px;
+    border-radius: 20px;
+ 
+}
+.main_heading{
+    position: absolute;
+    font-weight: bold;
+    color: rgb(0, 55, 137);
+    top: 500px;
+    left: 70px;
+    padding: 50px;
+    width: 33%;
+    line-height: 80px;
+font-size: 65px;
+}
+.four_image1{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    border-radius: 15px;
+
+}
+.four_image2{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+    border-radius: 15px;
+
+}
+
+.four_image3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 750px;
+    left: 700px;
+    border-radius: 15px;
+
+}
+.four_image4{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 750px;
+    left: 1100px;
+    border-radius: 15px;
+
+}
+.rpa_strength{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(254, 167, 36);
+    border-radius: 20px;
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get_started{
+  
+    padding: 20px 40px;
+    background-color:  rgb(0, 55, 137);
+    border: 2px solid#fff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+
+    margin-top: 50px;
+}
+.four:hover{
+    z-index: 1;
+    transform: scale(1.06);
+    box-shadow:0px 0px 10px 1px rgb(0, 55, 137);
+    transition: all 0.2s ease-in-out 0.01s;
+
+}
+.get_started:hover{
+   
+    background-color: black;
+    color:  #fff;
+    border: 2px solid  rgb(255, 255, 255);
+}
+.onroll{
+    
+    color: rgb(209, 31, 0);;
+    position: absolute;
+    font-weight: 600;
+    margin-top: 120px;
+
+}
+.student{
+    margin: 20px 50px 30px 50px;
+  
+}
+.slice2{
+    width: 100%;
+    height: 160vh;
+    background-image: url('assests/images/Slice 2.png');
+   
+    background-size: cover;
+    display:flex ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero
+{
+    width: 100%;
+    height: 600px;
+
+}
+.boxes_container{
+    width: 100%;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: center;
+    
+  
+}
+.lower_box{
+    width: 30%;
+    height: 60vh;
+    background-color: rgb(209, 31, 0);;
+    margin: 3vh;
+    border-radius: 25px;
+    position: relative;
+
+}
+.upper_box{
+    width: 88%;
+    height: 62vh;
+    background-color: rgb(241, 241, 241);
+    left: 6%;
+    position: absolute;
+    top: -6vh;
+    border-radius: 25px;
+    line-height: 40px;
+    
+    
+    transition: all 0.3s ease-in 0.01s;
+
+}
+.upper_box p{
+    margin: 10px;
+}
+.lower_box:hover .upper_box{
+    transform: rotate(3deg);
+    box-shadow:0px 0px 5px 1px rgb(226, 226, 226);
+    background-color: #ffffff;
+    color:  rgb(0, 55, 137);
+
+}
+
+.message{
+    font-size: 30px;
+    font-weight: 555;
+    position: absolute;
+    top: -15vh;
+    margin-left: 50px;
+    white-space: nowrap;
+}
+.mission{
+    font-size: 30px;
+    font-weight: 555;
+    position: absolute;
+    top: -15vh;
+    margin-left: 150px;
+    white-space: nowrap;
+}
+.vision{
+    font-size: 30px;
+    font-weight: 555;
+    position: absolute;
+    top: -15vh;
+    margin-left: 160px;
+    white-space: nowrap;
+}
+.sir_mam{
+    width: 100%;
+    height: 20vh;
+    background-color: thistle;
+}
+.youtube_videos iframe {
+    padding: 30px;
+    border-radius: 50px;
+    margin: 0px 32px;
+    
+}
+
+.youtube_videos iframe:hover{
+    box-shadow: rgba(77, 77, 77, 0.25) 0px 1px 2px;
+}
+.activities {
+    margin: 55px 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 150px;
+    height: 350px;
+}
+
+
+.activities_images .img1:hover {
+    z-index: 1;
+    box-shadow: rgba(77, 77, 77, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.activities_images .img2:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.img1 {
+    border-radius: 5px;
+}
+
+.img2 {
+    position: relative;
+    top: 35%;
+    right: 24%;
+    border-radius: 20px;
+
+}
+
+.activities_description {
+    font-family: cursive;
+    font-size: 12px;
+    padding: 64px 0px;
+}
+
+.activities_description span {
+    font-size: larger;
+    font-family: math;
+    font-size: 32px;
+
+}
+
+.staff {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 75px 0px;
+    padding: 40px 0px;
+}
+
+.staff_teacher {
+    display: flex;
+    flex-direction: column;
+}
+
+.staff_teacher img {
+    border-radius: 50%;
+    height: 244px;
+}
+
+.teacher_name {
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: bold;
+    margin: 4px 55px;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.teacher_post {
+    font-size: 16px;
+    margin: 10px 60px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.teacher_qualifications li {
+    list-style: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+
+.address {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-around;
+
+}
+
+.address_map {
+    background-color: #e4e4e4;
+    height: 300px;
+    width: 300px;
+    margin-left: 95px;
+
+}
+
+.address_map img {
+    padding: 10px;
+}
+
+.address_social_media {
+    margin: 50px;
+}
+
+.sub_footer {
+    margin-top: 150px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: rgb(255, 166, 0);
+}
+
+.sub_footer_right {
+    list-style: none;
+}
+
+.sub_footer_left {
+    margin: 80px 50px;
+    width: 50%;
+}
+
+.subfooter_stayUpdate {
+    color: black;
+    font-weight: 700;
+    font-size: 19px;
+    margin: 10px 0px;
+}
+
+.subfooter_joinFast {
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+
+}
+
+.subfooter_email {
+    height: 60px;
+    width: 300px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.subfooter_email input {
+    color: rgb(255, 255, 255);
+    height: 40px;
+    background-color: rgb(255, 166, 0);
+    border: none;
+}
+
+.subfooter_email span {
+    width: 100px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_footer_right {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.sub_footer_right li {
+    padding: 26px 40px;
+    margin: 145px 0px
+}
+.sub_footer_right li:hover {
+    box-shadow:0px 0px 10px 1px rgb(0, 55, 137);
+
+}
+footer {
+    background-color: rgb(255, 111, 0);
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+    .subfooter_email:hover {
+        box-shadow:0px 0px 10px 1px rgb(0, 55, 137);
+        transform: scale(1.2);
+        cursor: pointer;
+
+    }
